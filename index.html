@@ -1,41 +1,193 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="no-js">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Backmark: Antique Identifier</title>
-<link rel="stylesheet" href="style.css">
+<meta name="description" content="Point your camera at an old object and learn what it is, what it is probably worth, and how sure the app is. No account, and your collection stays on your iPhone.">
+<link rel="canonical" href="https://irfanbehic.github.io/backmark/">
+<meta name="theme-color" content="#f2f2f7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Backmark: Antique Identifier">
+<meta property="og:description" content="What it is, what it is probably worth, and how sure the answer is.">
+<meta property="og:url" content="https://irfanbehic.github.io/backmark/">
+<meta property="og:image" content="https://irfanbehic.github.io/backmark/assets/icon-512.png">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="assets/icon-180.png" type="image/png">
+<link rel="apple-touch-icon" href="assets/icon-180.png">
+<link rel="stylesheet" href="assets/style.css">
+<script>document.documentElement.classList.remove("no-js")</script>
 </head>
 <body>
+
+<header class="nav">
+  <div class="nav__bar">
+    <a class="brand" href="./"><img src="assets/icon-180.png" alt="" width="34" height="34">Backmark</a>
+    <nav class="nav__links" aria-label="Main">
+      <a href="#features">Features</a>
+      <a href="#values">Values</a>
+      <a href="support/">Support</a>
+    </nav>
+    <span class="store" role="img" aria-label="Coming soon to the App Store">
+      <svg viewBox="0 0 384 512" aria-hidden="true"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>
+      Coming soon
+    </span>
+  </div>
+</header>
+
 <main>
-  <h1>Backmark</h1>
-  <p class="lead">Point your camera at an old object and learn what it is, what it is probably
-  worth, and how sure the app is.</p>
 
-  <h2>What it does</h2>
-  <ul>
-    <li>Reads the maker's mark when the photo shows one, and says <strong>Strong match</strong> only
-      when that mark spells the maker.</li>
-    <li>Shows up to three possibilities with a confidence word and the reason behind it, instead of
-      one confident answer.</li>
-    <li>Says <strong>may be valuable, get it appraised</strong> when an item could be worth a lot and
-      the identification is uncertain, instead of printing a price.</li>
-    <li>Keeps your collection, photos and notes on your iPhone. No account, no server of ours.</li>
-  </ul>
+  <section class="hero">
+    <div class="shell hero__grid">
+      <div class="reveal">
+        <span class="eyebrow">Antique identifier for iPhone</span>
+        <h1>What is it, and <em>how sure</em> are&nbsp;we?</h1>
+        <p class="lead">Point your camera at an old object. Backmark tells you what it is, what it is probably worth, and how sure the answer really is.</p>
+        <span class="store store--large" role="img" aria-label="Coming soon to the App Store">
+          <svg viewBox="0 0 384 512" aria-hidden="true"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>
+          Coming soon <small>to the App Store</small>
+        </span>
+        <p class="hero__note">Three free scans. No account, no sign-up.</p>
+      </div>
+      <div class="phone reveal" data-delay="120">
+        <img src="assets/shot-result.jpg" width="600" height="1304" alt="A result for a silver pitcher: Strong match, based on the maker's mark and its pattern number, with an estimated value of $6,000 to $14,000.">
+      </div>
+    </div>
+  </section>
 
-  <h2>What it is not</h2>
-  <p>Values are AI estimates, not a professional appraisal. They vary with condition and market.
-  For anything you plan to sell or insure, see a qualified appraiser.</p>
+  <section id="features" class="shell">
+    <div class="bento">
 
-  <h2>Pages</h2>
-  <ul>
-    <li><a href="privacy/">Privacy Policy</a></li>
-    <li><a href="terms/">Terms of Use</a></li>
-    <li><a href="support/">Support</a></li>
-  </ul>
+      <article class="tile tile--2 reveal">
+        <div class="mark">
+          <img src="assets/photo-mark.jpg" alt="" loading="lazy">
+          <div class="mark__read"><b>Maker's mark</b>TIFFANY &amp; CO · STERLING · 925-1000 · M</div>
+        </div>
+        <h3>Reads the mark</h3>
+        <p>The mark on the base is the best clue to who made a piece and when. Backmark reads it and tells you what it means.</p>
+      </article>
 
-  <p class="footer">Backmark is made for adults who buy, sell, inherit or research antiques.
-  It is not directed to children.</p>
+      <article class="tile tile--4 tile--split reveal" data-delay="80">
+        <div class="copy">
+          <h3 class="big">Honest confidence</h3>
+          <p>Every answer says how sure it is, in words, with the reason. Strong match only when the mark spells the maker.</p>
+          <span class="no-percent">Never a made up <s>94%</s>.</span>
+        </div>
+        <div class="words" aria-label="The three confidence words">
+          <div class="word word--strong">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 1.5l2.3 1.8 2.9-.3 1.1 2.7 2.7 1.1-.3 2.9 1.8 2.3-1.8 2.3.3 2.9-2.7 1.1-1.1 2.7-2.9-.3L12 22.5l-2.3-1.8-2.9.3-1.1-2.7-2.7-1.1.3-2.9L1.5 12l1.8-2.3-.3-2.9 2.7-1.1 1.1-2.7 2.9.3z"/><path d="M7.5 12.3l3 3 6-6.3" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <div><strong>Strong match</strong><span>Based on the maker's mark</span></div>
+          </div>
+          <div class="word word--possible">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="currentColor"/><path d="M9.3 9.2a2.8 2.8 0 015.4 1c0 1.9-2.7 2.3-2.7 4" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="17.6" r="1.3" fill="#fff"/></svg>
+            <div><strong>Possible match</strong><span>The shape and glaze match</span></div>
+          </div>
+          <div class="word word--unsure">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="3.2 2.6"/></svg>
+            <div><strong>Not sure yet</strong><span>No mark is visible</span></div>
+          </div>
+        </div>
+      </article>
+
+      <article class="tile tile--4 tile--split reveal">
+        <div class="copy">
+          <h3 class="big">May be valuable</h3>
+          <p>When an item could be worth a lot and the answer is uncertain, Backmark tells you to get it appraised instead of guessing a price.</p>
+        </div>
+        <div class="phone phone--sm phone--crop">
+          <img src="assets/shot-appraisal.jpg" width="600" height="1304" alt="A result for a painted porcelain teapot: Not sure yet, with a card saying it may be valuable and should be appraised before selling." loading="lazy">
+        </div>
+      </article>
+
+      <article class="tile tile--2 reveal" data-delay="80">
+        <div class="value">
+          <img class="value__photo" src="assets/photo-flask.jpg" alt="" loading="lazy">
+          <div class="value__label">Estimated value</div>
+          <div class="value__range">$600–$950</div>
+          <div class="value__basis">Pieces of this size at auction</div>
+        </div>
+        <h3>A range with its basis</h3>
+        <p>Values are ranges, never a single number, and each one says what it is based on.</p>
+      </article>
+
+      <article class="tile tile--3 reveal">
+        <img class="cand-photo" src="assets/photo-teapot.jpg" alt="" loading="lazy">
+        <h3>See the other possibilities</h3>
+        <p>When a photo could be more than one thing, you see up to three answers side by side, each with its own confidence.</p>
+        <div class="candidates">
+          <div class="candidate"><i class="dot dot--unsure"></i><div><strong>Early porcelain teapot</strong><span>Not sure yet · c. 1720–1730</span></div></div>
+          <div class="candidate"><i class="dot dot--possible"></i><div><strong>A 19th century copy</strong><span>Possible match · c. 1880</span></div></div>
+          <div class="candidate"><i class="dot dot--unsure"></i><div><strong>Later decorated teapot</strong><span>Not sure yet · c. 1890</span></div></div>
+        </div>
+      </article>
+
+      <article class="tile tile--3 tile--center reveal" data-delay="80">
+        <div class="stack" aria-hidden="true">
+          <img src="assets/photo-bottle-cooler.jpg" alt="">
+          <img src="assets/photo-worcester-vase.jpg" alt="">
+          <img src="assets/photo-flask.jpg" alt="">
+        </div>
+        <div class="chips" aria-hidden="true">
+          <span class="chip chip--on">All <b>8</b></span>
+          <span class="chip">Grandma's <b>4</b></span>
+          <span class="chip">To Sell <b>3</b></span>
+        </div>
+        <h3>Your collection, on your iPhone</h3>
+        <p>Save items into folders. No account, and everything opens without a connection.</p>
+      </article>
+
+    </div>
+  </section>
+
+  <section id="values" class="shell">
+    <h2 class="section-title reveal">An app with values</h2>
+    <div class="values">
+      <article class="value-card reveal">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a5 5 0 00-5 5v3H6a2 2 0 00-2 2v8a2 2 0 002 2h12a2 2 0 002-2v-8a2 2 0 00-2-2h-1V7a5 5 0 00-5-5zm-3 8V7a3 3 0 016 0v3z"/></svg>
+        <h3>Private by design</h3>
+        <p>Your collection, photos and notes stay on your iPhone. A photo is only sent to identify an item, after you agree, and it is not used to train AI.</p>
+      </article>
+      <article class="value-card reveal" data-delay="80">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 100 20 10 10 0 000-20zm0 4.5a3.2 3.2 0 110 6.4 3.2 3.2 0 010-6.4zm0 13.3a7.8 7.8 0 01-6-2.8c.9-1.9 3.3-3 6-3s5.1 1.1 6 3a7.8 7.8 0 01-6 2.8z"/></svg>
+        <h3>No sign up</h3>
+        <p>No account, no email, no password. Purchases belong to your Apple Account, so there is nothing to log in to.</p>
+      </article>
+      <article class="value-card reveal" data-delay="160">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 100 20 10 10 0 000-20zm-4.6 12.6h9.2a4.9 4.9 0 01-9.2 0zM8.5 8a1.5 1.5 0 110 3 1.5 1.5 0 010-3zm7 0a1.5 1.5 0 110 3 1.5 1.5 0 010-3z"/></svg>
+        <h3>Honest pricing</h3>
+        <p>Three free scans, then weekly, yearly or a one time purchase. Every price shown in full, no trial to forget, no countdowns.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="closing shell">
+    <img src="assets/icon-512.png" alt="" width="96" height="96" class="reveal">
+    <h2 class="reveal">Find out what grandma's vase really is.</h2>
+    <p class="reveal">Backmark is coming soon to iPhone.</p>
+    <span class="store store--large reveal" role="img" aria-label="Coming soon to the App Store">
+      <svg viewBox="0 0 384 512" aria-hidden="true"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>
+      Coming soon
+    </span>
+  </section>
+
 </main>
+
+<footer class="footer shell">
+  <div class="footer__bar">
+    <a href="./" aria-label="Backmark home"><img src="assets/icon-180.png" alt="" width="44" height="44"></a>
+    <nav class="footer__links" aria-label="Legal">
+      <a href="privacy/">Privacy</a>
+      <a href="terms/">Terms of Use</a>
+      <a href="support/">Support</a>
+    </nav>
+  </div>
+  <div class="footer__note">
+    <span>© 2026 İrfan Behiç Tırpancı</span>
+    <span>Values are AI estimates, not professional appraisals.</span>
+  </div>
+</footer>
+
+<script src="assets/site.js"></script>
 </body>
 </html>
