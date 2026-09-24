@@ -272,3 +272,10 @@ h1, h2, h3, p { margin: 0; }
 }
 
 :focus-visible { outline: 3px solid var(--brass); outline-offset: 3px; border-radius: 10px; }
+
+/* Language switch (24 Sep 2026) */
+.nav__end { justify-self: end; display: inline-flex; align-items: center; gap: 14px; }
+.nav__end .nav__cta { justify-self: auto; }
+.lang { text-decoration: none; font-size: 14px; font-weight: 600; color: var(--ink-2); padding: 6px 4px; }
+.lang:hover { color: #000; }
+@media (max-width: 760px) { .nav__end { gap: 8px; } .lang { font-size: 13px; } }
