@@ -68,8 +68,17 @@
   <p>Uygulama, geliştirilebilmesi için anonim ürün olaylarını (örneğin bir taramanın başladığını ya da bir
   sonucun kaydedildiğini) PostHog'a gönderir. Bu olaylar asla fotoğraflarınızı, eşya adlarını, üreticileri,
   damga yazılarını, notları, klasör adlarını, değerleri ya da aramalarınızı içermez.</p>
-  <p>Reklam yok, uygulamalar ya da web siteleri arasında izleme yok, izleme için kullanılan bir tanımlayıcı
-  yok. Hiçbir şey izlemediği için uygulama izleme izni de istemez.</p>
+  <p>Uygulamanın içinde reklam yok.</p>
+
+  <h2>Reklamlarımızın ölçülmesi</h2>
+  <p>Backmark'ın reklamları Facebook ve Instagram'da yayınlanır. Bu reklamların indirmeye dönüşüp
+  dönüşmediğini öğrenmek için uygulamada Meta'nın yazılım geliştirme kiti bulunur. Bu kit Meta'ya
+  uygulamanın yüklendiğini ve açıldığını, bir taramanın sonuca ulaştığını ve bir satın alma yapıldığını,
+  iPhone modeli, iOS sürümü ve dil gibi temel cihaz bilgileriyle birlikte bildirir. Fotoğraflarınızı, eşya
+  adlarını, üreticileri, notları, değerleri ya da aramalarınızı asla göndermez.</p>
+  <p>Uygulama sizi izlemek için izin istemez, bu yüzden Meta'ya reklam tanımlayıcısı gitmez. Reklamdan
+  gelen yüklemeler, kim olduğunuzu söylemeden Apple'ın SKAdNetwork sistemiyle sayılır. Meta bu bilgileri
+  kendi <a href="https://www.facebook.com/privacy/policy/">Gizlilik İlkesi</a> kapsamında işler.</p>
 
   <h2>Satın almalar</h2>
   <p>Satın almaları Apple yürütür. Backmark bir satın almanın etkin olup olmadığını kontrol etmek için
@@ -86,6 +95,7 @@
     <tr><th>Veri</th><th>Amaç</th><th>Hukuki sebep</th></tr>
     <tr><td>Taradığınız fotoğraf ve Ayrıntı Ekle'ye yazdıklarınız</td><td>Eşyanın tanınması ve değer tahmini</td><td>Açık rızanız (KVKK md. 5/1); uygulama ilk taramadan önce sorar</td></tr>
     <tr><td>Anonim kullanım olayları</td><td>Uygulamanın geliştirilmesi</td><td>Meşru menfaat (KVKK md. 5/2-f)</td></tr>
+    <tr><td>Yükleme, açılış, sonuç ve satın alma olayları ile temel cihaz bilgileri</td><td>Reklamlarımızın sonuç verip vermediğinin ölçülmesi</td><td>Meşru menfaat (KVKK md. 5/2-f)</td></tr>
     <tr><td>Satın alma durumu ve anonim müşteri kimliği</td><td>Planınızın etkinleştirilmesi ve geri yüklenmesi</td><td>Sözleşmenin kurulması ve ifası (KVKK md. 5/2-c)</td></tr>
   </table></div>
   <p>Fotoğraflarınızın dışında kalan koleksiyon verileriniz cihazınızdan çıkmaz ve tarafımızca
@@ -93,7 +103,7 @@
 
   <h3>Yurt dışına aktarım</h3>
   <p>Fotoğraf ve ayrıntılar, eşyayı tanıması için Google'a (Google Cloud, Firebase AI Logic) aktarılır;
-  satın alma durumu RevenueCat'e, anonim kullanım olayları PostHog'a gider. Bu hizmetlerin sunucuları
+  satın alma durumu RevenueCat'e, anonim kullanım olayları PostHog'a, reklam ölçümü olayları Meta'ya gider. Bu hizmetlerin sunucuları
   Türkiye dışındadır. Fotoğrafların aktarımı, ilk taramadan önce uygulamada verdiğiniz açık rızaya
   (KVKK md. 9) dayanır. Rızanızı istediğiniz zaman Ayarlar'dan geri alabilirsiniz.</p>
 
@@ -118,8 +128,9 @@
     <tr><th>Veri</th><th>Amaç</th><th>Size bağlı</th><th>İzleme için</th></tr>
     <tr><td>Fotoğraflar</td><td>Uygulama işlevi</td><td>Hayır</td><td>Hayır</td></tr>
     <tr><td>Diğer kullanıcı içeriği (yazdığınız ayrıntılar)</td><td>Uygulama işlevi</td><td>Hayır</td><td>Hayır</td></tr>
-    <tr><td>Ürün etkileşimi</td><td>Analiz</td><td>Hayır</td><td>Hayır</td></tr>
-    <tr><td>Satın alma geçmişi</td><td>Uygulama işlevi</td><td>Hayır</td><td>Hayır</td></tr>
+    <tr><td>Ürün etkileşimi</td><td>Analiz, geliştiricinin reklamları</td><td>Hayır</td><td>Hayır</td></tr>
+    <tr><td>Satın alma geçmişi</td><td>Uygulama işlevi, geliştiricinin reklamları</td><td>Hayır</td><td>Hayır</td></tr>
+    <tr><td>Diğer veriler (cihaz bilgileri)</td><td>Analiz, geliştiricinin reklamları</td><td>Hayır</td><td>Hayır</td></tr>
   </table></div>
   <p>Başka hiçbir şey toplanmaz. Konum yok, kişiler yok, sağlık verisi yok, izleme için tanımlayıcı yok.</p>
 
@@ -137,7 +148,7 @@
   <h2>Değişiklikler</h2>
   <p>Bu politika değişirse yeni sürümü bu sayfada, aşağıda yeni bir tarihle yayımlanır.</p>
 
-  <p class="updated">Son güncelleme 24 Eylül 2026.</p>
+  <p class="updated">Son güncelleme 5 Ekim 2026.</p>
 </article>
 </main>
 
